@@ -1,0 +1,10 @@
+<?php
+
+namespace DummyNamespace;
+
+use Lumenx\Resource\Resource;
+
+class DummyClass extends Resource
+{
+    //
+}
