@@ -39,4 +39,16 @@ class DummyClass extends RequestValidate
             //
         ];
     }
+
+    /**
+     * Get custom attributes for validator errors.
+     *
+     * @return array
+     */
+    public function attributes(): array
+    {
+        return [
+            //
+        ];
+    }
 }
