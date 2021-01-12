@@ -26,6 +26,7 @@ class ServiceProvider extends BaseServiceProvider
                 \Lumenx\Console\ModelMakeCommand::class,
                 \Lumenx\Console\RequestMakeCommand::class,
                 \Lumenx\Console\ResourceMakeCommand::class,
+                \Lumenx\Console\EloquentFilterMakeCommand::class,
             ]);
         }
     }
