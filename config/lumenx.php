@@ -2,6 +2,9 @@
 
 return [
     'register_make_command' => app()->environment('local'),
+    'service' => [
+        'default_namespace' => '\Services',
+    ],
     'model' => [
         'default_namespace' => '\Models',
     ],
