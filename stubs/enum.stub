@@ -1,0 +1,10 @@
+<?php
+
+namespace DummyNamespace;
+
+use Lumenx\Enum\Enum;
+
+abstract class DummyClass extends Enum
+{
+    // const EXAMPLE = 'example';
+}

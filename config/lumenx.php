@@ -2,9 +2,6 @@
 
 return [
     'register_make_command' => app()->environment('local'),
-    'service' => [
-        'default_namespace' => '\Services',
-    ],
     'model' => [
         'default_namespace' => '\Models',
     ],
@@ -17,5 +14,11 @@ return [
     'resource' => [
         'default_namespace' => '\Http\Resources',
         'open_include' => false,
+    ],
+    'service' => [
+        'default_namespace' => '\Services',
+    ],
+    'enum' => [
+        'default_namespace' => '\Enums',
     ],
 ];
